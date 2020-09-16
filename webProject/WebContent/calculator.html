@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>계산기</title>
+</head>
+<body>
+	<h1>계산기</h1>
+	<hr>
+	<form name=form1 method=post action=webProject/CalcServlet method=post>
+		첫번째 값:	<input type="text" name=num1 width=200 size="5">
+		<select name=operator>
+			<option selected>+</option>
+			<option>-</option>
+			<option>*</option>
+			<option>/</option>
+		</select>
+			두번째 값:	<input type=text name=num2 width=200 size="5">
+			<input type=submit value=계산>
+			<input type=reset value=재입력>
+	</form>
+</body>
+</html>
